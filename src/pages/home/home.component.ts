@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
-import { AjaxService } from '../services/ajax.service';
+import { AjaxService } from '../../services/ajax.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from '../pages//home/home.component';
+import { ContactComponent } from '../pages//contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms'
 
-import { DataServiceService } from './services/data-service.service'
+import { DataServiceService } from '../services/data-service.service'
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
