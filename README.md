@@ -5,6 +5,14 @@ This is purely for learning and understanding purpose of Angular
 
 #Steps to run the project
 1. clone the repo
-2. npm install
-3. npm start / ng serve
+2. cd Angular2-sampleExample-master
+3. npm install
+4. npm start / ng serve
 
+
+#What it Covers
+1. Components
+2. Services
+3. Dependency Injection
+4. Routing
+5. Observable
